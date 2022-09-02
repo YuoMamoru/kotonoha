@@ -1,0 +1,13 @@
+{
+  "name": "kotonoha",
+  "version": "1.0.0",
+  "description": "Utilities for solving KOTONOHA-TANGO",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yuo Mamoru <m.yuo@cam.hi-ho.ne.jp> (https://restus.co.jp)",
+  "license": "MIT"
+}
