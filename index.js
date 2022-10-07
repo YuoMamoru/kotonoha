@@ -1,4 +1,4 @@
-import * as kotonoha from './lib/kotonoha.js';
+const kotonoha = require('./lib/kotonoha');
 
 // minMaxCount('./dictionary/kotonoha.txt', './dictionary/count.txt');
 
