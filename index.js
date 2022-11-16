@@ -2,11 +2,11 @@ import * as kotonoha from './lib/kotonoha.js';
 
 // minMaxCount('./dictionary/kotonoha.txt', './dictionary/count.txt');
 
-const step = 1
-
 function dict(i) {
   return i ? `./work/${i}.txt` : './dictionary/kotonoha.txt';
 }
+
+const step = 1
 
 const re = '[^ウインリー]';
 kotonoha.outputCandidates(dict(step - 1), dict(step), (word) => (
